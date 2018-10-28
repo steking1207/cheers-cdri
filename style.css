@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+@charset "utf-8";
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {padding: 0; margin: 0;border: 0;vertical-align: baseline;}
+table {border-collapse:collapse; border-spacing:0;}
+address, caption, cite, code, dfn, em, th, var {font-weight: normal; font-style: normal;}
+caption, th {text-align: left;}
+fieldset, img {border: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; font-size: 100%;font: inherit;}
+a, a:link, a:visited, a:hover, a:active {text-decoration: none; outline:none;}
+ol, ul {list-style: none;}
+input, textarea, select, button {font-size: 100%; font-family: inherit; outline:none;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}
+
+body{ font-family:Arial,sans-serif,'Noto Sans TC','微軟正黑體', sans-serif;line-height:1.6;overflow-x:hidden; font-size:14px; }
+.space{ clear:both; height:0; line-height:0}
+.ab{ position:absolute}
+.left{ float:left}
+.right{ float:right}
+.hide { display: none;}
+a{transition: all .6s}
+
+
+
+.section1{ background:url(../images/bg_kv.jpg) top center no-repeat; height:100vh; width:100vw; background-size:cover; position:relative; text-align:center; box-sizing:border-box; padding-top:50px; }
+.ad{ color:#fff; font-size:18px; right:50px; bottom:20px; text-shadow:0 0 5px #000;}
+.section1 h1{ padding: 20px; }
+.section1 h2{ font-size:40px; font-weight:700; line-height:1.2; padding:0 20px;}
+.buttons{ margin-top:20px;}
+.buttons p{ font-size:24px;}
+.buttons a { font-size:34px; display:inline-block; padding:3px 10px; background:#44c4bd; color:#fff; border-radius:10px; margin:10px;}
+.buttons a:hover{ background:#256C3C;}
+
+/***************seciton2******************/
+.section2{ background:url(../images/bg2.jpg); text-align:center; padding:40px 1%; background-size:cover; position:relative; overflow: hidden }
+.dec{ font-size:18px;padding:35px;line-height:2}
+.move1{ top:311px; left:50%; margin-left:400px}
+.move2{top:500px; right:-10px}
+.move3{ bottom:0; left:-10px; height:468px;}
+.section2 h2{ font-size:30px; margin:20px 0;}
+.section2 table{ max-width:970px; margin:0 auto; font-size:15px; text-align:left; background:#fff; margin-bottom:40px;}
+.section2 td{ padding: 40px 20px; border:1px solid #dcdcdc; }
+.section2 .h3{font-size:24px; color:#fff; text-align:center;padding:10px;}
+.section2 .time{ text-align:center; font-size:18px; background:#f1f1f1;}
+.section2 .time td{ border:1px solid #f1f1f1;padding:10px;}
+.tech .h3{ background:#255bbe}
+.energy .h3{ background:#72c73a}
+
+.box{ max-width:1000px; text-align:center; margin:0 auto;}
+.box li{ width:49%; display:inline-block;  display:inline-block; padding-top:40%; padding-bottom:40px; }
+.box li.box1{ background:url(../images/blue.jpg) center no-repeat; background-size:cover }
+.box li.box2{ background:url(../images/green.jpg)  center no-repeat; background-size:cover }
+.box li h4{ font-size:36px; color:#fffl; letter-spacing:5px; color:#fff  }
+.box li a.more{ color:#fff; padding:5px 40px; display:inline-block; font-size:24px; border:2px solid #fff;letter-spacing:2px; margin-top:20px;}
+.box li a.more:hover{ background:#fff;color:#000}
+a.addrbtn{ font-size:16px; color:#fff; background:#fb6400; border-radius:5px; display:inline-block; padding:2px 10px}
+a.addrbtn span{display:inline-block; width: 0;  height: 0;  border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left:8px solid #fff; margin-left:5px; margin-top:5px;}
+a.addrbtn:hover { background:#c00  }
+
+
+.section3{ background:url(../images/bg3.jpg) top center; background-size:cover; padding:40px 1%; margin-top:-2px;  }
+.form{box-shadow:0 0 3px #C4C4C4; background:#fff; }
+.form, .privacy{ max-width:1000px; margin:0 auto;}
+.gradient{ width:100%; height:27px;  background: linear-gradient(to right, #02d093 ,#11bef7);  }
+
+.form h2{ font-weight:700; color:#23a39c; font-size:28px; text-decoration:underline; margin-bottom:20px;}
+.form_wrap{ padding:50px;}
+.form ol{ margin-left:20px; font-size:15px; }
+.form li { list-style:decimal; margin:15px 0;}
+.form li label{ display:block; margin-bottom:10px ;}
+.form li b{ margin-bottom:10px; display:inline-block; font-weight:700}
+.form li .red{ color:#FF0004}
+.form .sent{ font-size:18px; background:#04ce9e; color:#fff; border:none; padding:5px 60px; margin-top:20px; cursor:pointer; transition:all .6s}
+.form .sent:hover{ background:#00A6F7}
+.form  input.txt{ border-radius:5px; padding:5px; border:1px solid #666; margin-right:15px;}
+.privacy{  color:#515151; padding:20px; box-sizing:border-box}
+.privacy h3{ font-size:20px;text-decoration:underline; margin-bottom:20px;}
+.privacy p{ font-size:14px;}
+footer{ text-align:center; padding:20px 0}
+.top{ position:fixed; right:10px; bottom:10px; color:#00afab; font-weight:bold; font-size:16px; cursor:pointer}
+.top span{ display:block;width: 0;  height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 8px solid #00afab; margin-left:10px;}
+/*lightbox*/
+
+.black{ width: 100%; height: 100%; position: fixed;top: 0px;left: 0px; background: #000; z-index: 99; opacity: 0.7; display: ; cursor: pointer;}
+.pop, .finish, .classinfo{position: fixed;top:0;bottom:0;left:0;right:0;margin:50px auto; z-index: 9999; width:90%; max-width:1000px; background:#fff; overflow-y: auto; box-sizing:border-box; padding:30px 100px;-webkit-overflow-scrolling:touch}
+.pclose{ position: fixed; z-index: 99999;cursor: pointer; width:60px; height:60px; left: 50%; top:60px; margin-left: 410px; }
+.finish{ height:210px; top:50%; margin-top:-100px; max-width:600px;font-size:16px;padding: 50px;}
+.finish .pclose{ top:50%; margin-top:-100px; margin-left:230px }
+.finish strong{ font-size:18px;}
+.pclose span::after, .pclose span::before{ content:""; width:90%; height:1px; background:#000; transform:rotate(45deg); position:absolute; top:50%; left:5px; transition:all .6s}
+.pclose span::after{transform:rotate(-45deg);}
+.pclose:hover span::after,.pclose:hover span::before{transform:rotate(360deg);}
+
+
+.pop h2{color:#1bafa9; font-size:30px; font-weight:700; text-align: center}
+.pop h3{ text-align:center; background:url(../images/line.png) center no-repeat; font-size:20px; margin:10px 0; font-weight:500 }
+.pop li{margin:20px 0; }
+.pop li img{ float:left; box-shadow:0 0 1px #7E7E7E; margin-right:20px;}
+.pop li h4{ font-size:24px; margin-top:15px;}
+.pop li p{padding-right: 10px;line-height:1.4;}
+.pop table{ margin-top:30px;}
+.pop td{ padding:10px 15px;}
+.pop .title td, .classinfo .title td{ background:#f1f1f1; font-size:18px;font-weight:normal}
+.pop tr:not(.title) td{ padding:40px 15px; border-bottom:1px solid #eee}
+.pop .warn{  text-align:center; padding:10px; color:#333}
+table.bt tbody td:first-child{ background:#f1f1f1}
+.pop ul{ margin-bottom:50px;}
+.popup1 h2{ color:#0961ce}
+p.f18{ font-size:18px; text-align:center}
+.note { margin-top:40px; color:#333}
+.note li{ list-style: square; margin:5px 20px; }
+.note ul{ float:left; width:70%; margin-right:20px;}
+.note img{ box-shadow: 10px 10px 5px #ccc;}
+.btn{text-align:center; margin:20px 0;}
+.btn a{ background:#0961ce; color:#fff; font-size:26px; display:inline-block; text-align:center; padding:10px 100px;}
+.btn a:hover,.btn.green a:hover{ background:#F60}
+.popup2 h2{ color:#72c73a}
+.btn.green a{ background:#72c73a}
+
+.classinfo{ text-align:center; max-height:400px;  top: 50%; margin-top: -200px;}
+.classinfo h3{ font-size:24px; margin-top:50px;}
+.classinfo td{ font-size:18px; font-weight:500; border:1px solid #eee; padding:20px;}
+.classinfo td span{ font-size:15px; font-weight:normal}
+.classinfo table{ margin:20px 0;}
+.classinfo .pclose { top: 50%; margin-top: -190px;}
+
+@media screen and (max-width: 1400px) {
+.move2 img,.move3 img{ transform:scale(.8)}
+.move2{right:-50px;}
+.move3{left:-50px; bottom:-45px;}
+}
+@media screen and (max-width: 1100px) {
+.move2 img,.move3 img{ transform:scale(.5)}
+.move2{right:-100px;}
+.move3{left:-80px; bottom:-45px;}
+
+}
+@media screen and (max-width: 1000px) {
+
+.wrap_time{ width:500px; }
+.pclose{margin-left:35%}
+
+.section1 h1{ padding-bottom:0}
+.section1 h1 img { width:98%; height:auto }
+.box li h4{ font-size:30px; letter-spacing:0}
+}
+
+
+
+@media screen and (max-width: 680px) {
+.section1{ height:600px; }
+
+.pop .hu{   width:70%; float:left; margin-top:-20px; padding-right:0 }
+.box li{ padding-top:60%;}
+.box li h4{ font-size:22px;}
+.section2 td{ padding:20px;}
+.move2,.move3{ display:none}
+.box li a.more{ font-size:18px;}
+.note img{ width:24%; height:auto}
+.form input.txt.sm{ width:90px;}
+.classinfo{ padding:20px;}
+.classinfo td{ font-size:15px; padding:5px;}
+}
+@media screen and (max-width: 640px) {
+.section1 h1{ font-size:40px; }
+.section1 h2{ font-size:30px; }
+.buttons a {font-size:24px;}
+.dec{  text-align:justify}
+.dec br{ display:none}
+.finish .pclose,.pclose{margin-left:32%}
+.pop{ padding:30px;}
+.pop tr:not(.title) td{ padding:40px 10px; }
+}
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.zoom{ animation:zoom 1s infinite alternate}
+@keyframes zoom{
+from { transform:scale(1)}
+to { transform:scale(1.2)}
+}
+@-webkit-keyframes zoom{
+from { -webkit-transform:scale(1)}
+to { -webkit-transform:scale(1.2)}
+}
