@@ -518,25 +518,24 @@ p.f18 {
   box-shadow: 10px 10px 5px #ccc; }
 
 .btn {
-  text-align: center;
-  margin: 20px 0; }
-
+  margin: 20px 0;
+  text-align: center; }
 .btn a {
+  padding: 10px 100px;
+  display: inline-block;
   background: #0961ce;
   color: #fff;
   font-size: 26px;
-  display: inline-block;
-  text-align: center;
-  padding: 10px 100px; }
-
-.btn a:hover, .btn.green a:hover {
-  background: #F60; }
+  text-align: center; }
+.btn a:hover {
+  background: #F60 !important; }
+.btn.green a {
+  background: #72c73a; }
+.btn.cyan a {
+  background: #1bafa9; }
 
 .popup2 h2 {
   color: #72c73a; }
-
-.btn.green a {
-  background: #72c73a; }
 
 .logonew {
   margin: 10px 0px 40px 0px; }
@@ -691,3 +690,6 @@ p.f18 {
 .list-unstyled li {
   margin: 0;
   padding: 0; }
+
+.align-middle {
+  vertical-align: middle; }
